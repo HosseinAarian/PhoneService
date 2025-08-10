@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\404\\PhoneService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\404\\PhoneService\\PhoneService.Infrastructure\\Migrations\\20250810141210_initialDataBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PhoneService.Infrastructure\\Migrations\\20250810141210_initialDataBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D85A45D1-12FB-4F6E-8C65-F6FC4E7D3280}|PhoneService.Infrastructure\\PhoneService.Infrastructure.csproj|e:\\404\\phoneservice\\phoneservice.infrastructure\\configuration\\phoneserviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D85A45D1-12FB-4F6E-8C65-F6FC4E7D3280}|PhoneService.Infrastructure\\PhoneService.Infrastructure.csproj|solutionrelative:phoneservice.infrastructure\\configuration\\phoneserviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|e:\\404\\phoneservice\\phoneservice.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|solutionrelative:phoneservice.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A75B092-2586-48E6-8588-F0CAA61EF09A}|PhoneService.Application\\PhoneService.Application.csproj|e:\\404\\phoneservice\\phoneservice.application\\interfaces\\iphonebrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A75B092-2586-48E6-8588-F0CAA61EF09A}|PhoneService.Application\\PhoneService.Application.csproj|solutionrelative:phoneservice.application\\interfaces\\iphonebrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A75B092-2586-48E6-8588-F0CAA61EF09A}|PhoneService.Application\\PhoneService.Application.csproj|e:\\404\\phoneservice\\phoneservice.application\\services\\phonebrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A75B092-2586-48E6-8588-F0CAA61EF09A}|PhoneService.Application\\PhoneService.Application.csproj|solutionrelative:phoneservice.application\\services\\phonebrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250810141210_initialDataBase.cs",
+              "DocumentMoniker": "E:\\404\\PhoneService\\PhoneService.Infrastructure\\Migrations\\20250810141210_initialDataBase.cs",
+              "RelativeDocumentMoniker": "PhoneService.Infrastructure\\Migrations\\20250810141210_initialDataBase.cs",
+              "ToolTip": "E:\\404\\PhoneService\\PhoneService.Infrastructure\\Migrations\\20250810141210_initialDataBase.cs",
+              "RelativeToolTip": "PhoneService.Infrastructure\\Migrations\\20250810141210_initialDataBase.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAgwHAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T14:12:10.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\404\\PhoneService\\PhoneService.Web\\Program.cs",
+              "RelativeDocumentMoniker": "PhoneService.Web\\Program.cs",
+              "ToolTip": "E:\\404\\PhoneService\\PhoneService.Web\\Program.cs",
+              "RelativeToolTip": "PhoneService.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T14:05:46.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPhoneBrandService.cs",
+              "DocumentMoniker": "E:\\404\\PhoneService\\PhoneService.Application\\Interfaces\\IPhoneBrandService.cs",
+              "RelativeDocumentMoniker": "PhoneService.Application\\Interfaces\\IPhoneBrandService.cs",
+              "ToolTip": "E:\\404\\PhoneService\\PhoneService.Application\\Interfaces\\IPhoneBrandService.cs",
+              "RelativeToolTip": "PhoneService.Application\\Interfaces\\IPhoneBrandService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T14:05:22.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PhoneBrandService.cs",
+              "DocumentMoniker": "E:\\404\\PhoneService\\PhoneService.Application\\Services\\PhoneBrandService.cs",
+              "RelativeDocumentMoniker": "PhoneService.Application\\Services\\PhoneBrandService.cs",
+              "ToolTip": "E:\\404\\PhoneService\\PhoneService.Application\\Services\\PhoneBrandService.cs",
+              "RelativeToolTip": "PhoneService.Application\\Services\\PhoneBrandService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T14:03:26.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhoneServiceConfiguration.cs",
+              "DocumentMoniker": "E:\\404\\PhoneService\\PhoneService.Infrastructure\\Configuration\\PhoneServiceConfiguration.cs",
+              "RelativeDocumentMoniker": "PhoneService.Infrastructure\\Configuration\\PhoneServiceConfiguration.cs",
+              "ToolTip": "E:\\404\\PhoneService\\PhoneService.Infrastructure\\Configuration\\PhoneServiceConfiguration.cs",
+              "RelativeToolTip": "PhoneService.Infrastructure\\Configuration\\PhoneServiceConfiguration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T14:02:07.927Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

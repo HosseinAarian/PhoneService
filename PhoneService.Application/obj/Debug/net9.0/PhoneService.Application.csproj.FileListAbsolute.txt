@@ -1,0 +1,15 @@
+E:\404\PhoneService\PhoneService.Application\bin\Debug\net9.0\PhoneService.Application.deps.json
+E:\404\PhoneService\PhoneService.Application\bin\Debug\net9.0\PhoneService.Application.dll
+E:\404\PhoneService\PhoneService.Application\bin\Debug\net9.0\PhoneService.Application.pdb
+E:\404\PhoneService\PhoneService.Application\bin\Debug\net9.0\PhoneService.Core.dll
+E:\404\PhoneService\PhoneService.Application\bin\Debug\net9.0\PhoneService.Core.pdb
+E:\404\PhoneService\PhoneService.Application\obj\Debug\net9.0\PhoneService.Application.csproj.AssemblyReference.cache
+E:\404\PhoneService\PhoneService.Application\obj\Debug\net9.0\PhoneService.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\404\PhoneService\PhoneService.Application\obj\Debug\net9.0\PhoneService.Application.AssemblyInfoInputs.cache
+E:\404\PhoneService\PhoneService.Application\obj\Debug\net9.0\PhoneService.Application.AssemblyInfo.cs
+E:\404\PhoneService\PhoneService.Application\obj\Debug\net9.0\PhoneService.Application.csproj.CoreCompileInputs.cache
+E:\404\PhoneService\PhoneService.Application\obj\Debug\net9.0\PhoneSer.E8B17993.Up2Date
+E:\404\PhoneService\PhoneService.Application\obj\Debug\net9.0\PhoneService.Application.dll
+E:\404\PhoneService\PhoneService.Application\obj\Debug\net9.0\refint\PhoneService.Application.dll
+E:\404\PhoneService\PhoneService.Application\obj\Debug\net9.0\PhoneService.Application.pdb
+E:\404\PhoneService\PhoneService.Application\obj\Debug\net9.0\ref\PhoneService.Application.dll
