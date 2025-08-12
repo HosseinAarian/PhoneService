@@ -12,9 +12,9 @@ public class PhoneServiceDBContext : DbContext
 {
 	public PhoneServiceDBContext(DbContextOptions<PhoneServiceDBContext> options) : base(options) { }
 
-	public DbSet<PhoneBrand> phoneBrands => Set<PhoneBrand>();
-	public DbSet<Phone> phones => Set<Phone>();
-	public DbSet<Service> services => Set<Service>();
-	public DbSet<Item> items => Set<Item>();
+	public DbSet<PhoneBrand> PhoneBrands => Set<PhoneBrand>();
+	public DbSet<Phone> Phones => Set<Phone>();
+	public DbSet<Service> Services => Set<Service>();
+	public DbSet<Item> Items => Set<Item>();
 
 }

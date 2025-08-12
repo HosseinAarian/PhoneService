@@ -1,3 +1,12 @@
+E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.csproj.AssemblyReference.cache
+E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.GeneratedMSBuildEditorConfig.editorconfig
+E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.AssemblyInfoInputs.cache
+E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.AssemblyInfo.cs
+E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.csproj.CoreCompileInputs.cache
+E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.RazorAssemblyInfo.cache
+E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.RazorAssemblyInfo.cs
+E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.sourcelink.json
 E:\404\PhoneService\PhoneService.Web\bin\Debug\net9.0\appsettings.Development.json
 E:\404\PhoneService\PhoneService.Web\bin\Debug\net9.0\appsettings.json
 E:\404\PhoneService\PhoneService.Web\bin\Debug\net9.0\PhoneService.Web.staticwebassets.runtime.json
@@ -145,14 +154,6 @@ E:\404\PhoneService\PhoneService.Web\bin\Debug\net9.0\PhoneService.Infrastructur
 E:\404\PhoneService\PhoneService.Web\bin\Debug\net9.0\PhoneService.Application.pdb
 E:\404\PhoneService\PhoneService.Web\bin\Debug\net9.0\PhoneService.Infrastructure.pdb
 E:\404\PhoneService\PhoneService.Web\bin\Debug\net9.0\PhoneService.Core.pdb
-E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.csproj.AssemblyReference.cache
-E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.GeneratedMSBuildEditorConfig.editorconfig
-E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.AssemblyInfoInputs.cache
-E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.AssemblyInfo.cs
-E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.csproj.CoreCompileInputs.cache
-E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.MvcApplicationPartsAssemblyInfo.cache
-E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.RazorAssemblyInfo.cache
-E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\PhoneService.Web.RazorAssemblyInfo.cs
 E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\scopedcss\bundle\PhoneService.Web.styles.css
 E:\404\PhoneService\PhoneService.Web\obj\Debug\net9.0\scopedcss\projectbundle\PhoneService.Web.bundle.scp.css

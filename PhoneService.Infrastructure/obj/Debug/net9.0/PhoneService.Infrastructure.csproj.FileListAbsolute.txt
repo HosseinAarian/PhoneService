@@ -17,3 +17,4 @@ E:\404\PhoneService\PhoneService.Infrastructure\obj\Debug\net9.0\refint\PhoneSer
 E:\404\PhoneService\PhoneService.Infrastructure\obj\Debug\net9.0\PhoneService.Infrastructure.pdb
 E:\404\PhoneService\PhoneService.Infrastructure\obj\Debug\net9.0\PhoneService.Infrastructure.genruntimeconfig.cache
 E:\404\PhoneService\PhoneService.Infrastructure\obj\Debug\net9.0\ref\PhoneService.Infrastructure.dll
+E:\404\PhoneService\PhoneService.Infrastructure\obj\Debug\net9.0\PhoneService.Infrastructure.sourcelink.json

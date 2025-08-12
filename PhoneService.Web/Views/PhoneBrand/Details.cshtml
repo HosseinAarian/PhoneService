@@ -1,0 +1,16 @@
+﻿@model PhoneService.Core.Entities.PhoneBrand
+
+@{
+    ViewData["Title"] = "Phone Brand Details";
+}
+
+<h2>Phone Brand Details</h2>
+
+<div>
+    <h4>@Model.Title</h4>
+</div>
+
+<p>
+    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+    <a class="btn btn-secondary" asp-action="Index">Back to List</a>
+</p>

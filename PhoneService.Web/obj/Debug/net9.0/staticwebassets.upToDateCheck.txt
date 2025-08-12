@@ -62,6 +62,7 @@ E:\404\PhoneService\PhoneService.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-ut
 E:\404\PhoneService\PhoneService.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Images\704179-iphone-and-laptop-hd-wallpaper.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

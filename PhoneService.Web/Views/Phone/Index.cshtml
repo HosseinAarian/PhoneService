@@ -1,0 +1,35 @@
+﻿@model IEnumerable<PhoneService.Core.Entities.Phone>
+
+@{
+    ViewData["Title"] = "Phones List";
+}
+
+<h1>Phones</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Phone</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Brand</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var phone in Model)
+        {
+            <tr>
+                <td>@phone.Title</td>
+                <td>@phone.PhoneBrand?.Title</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@phone.Id" class="btn btn-sm btn-warning">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@phone.Id" class="btn btn-sm btn-info">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@phone.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

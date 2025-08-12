@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "77LOKX3b8u1mtFNoidSDiuQzqKlhOkxN940pOtRUKjk=",
+  "Hash": "vNH+eg4pcpA7nFUouPggCdeMjDSD6VppFUXzwZLGLu0=",
   "Source": "PhoneService.Web",
   "BasePath": "_content/PhoneService.Web",
   "Mode": "Default",
@@ -1443,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\404\\PhoneService\\PhoneService.Web\\wwwroot\\Images\\704179-iphone-and-laptop-hd-wallpaper.jpg",
+      "SourceId": "PhoneService.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\404\\PhoneService\\PhoneService.Web\\wwwroot\\",
+      "BasePath": "_content/PhoneService.Web",
+      "RelativePath": "Images/704179-iphone-and-laptop-hd-wallpaper#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yyzbpfabcl",
+      "Integrity": "JsDjs8yooCGt26wVJqah7ep/IVXIy+4N8GQAxMae788=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\704179-iphone-and-laptop-hd-wallpaper.jpg"
     },
     {
       "Identity": "E:\\404\\PhoneService\\PhoneService.Web\\wwwroot\\js\\site.js",
@@ -3320,6 +3341,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/704179-iphone-and-laptop-hd-wallpaper.jpg",
+      "AssetFile": "E:\\404\\PhoneService\\PhoneService.Web\\wwwroot\\Images\\704179-iphone-and-laptop-hd-wallpaper.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "617822"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JsDjs8yooCGt26wVJqah7ep/IVXIy+4N8GQAxMae788=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 10 Aug 2025 15:24:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JsDjs8yooCGt26wVJqah7ep/IVXIy+4N8GQAxMae788="
+        }
+      ]
+    },
+    {
+      "Route": "Images/704179-iphone-and-laptop-hd-wallpaper.yyzbpfabcl.jpg",
+      "AssetFile": "E:\\404\\PhoneService\\PhoneService.Web\\wwwroot\\Images\\704179-iphone-and-laptop-hd-wallpaper.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "617822"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JsDjs8yooCGt26wVJqah7ep/IVXIy+4N8GQAxMae788=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 10 Aug 2025 15:24:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yyzbpfabcl"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/704179-iphone-and-laptop-hd-wallpaper.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JsDjs8yooCGt26wVJqah7ep/IVXIy+4N8GQAxMae788="
         }
       ]
     },
@@ -21310,7 +21413,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 14:00:36 GMT"
+          "Value": "Sun, 10 Aug 2025 16:14:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21371,7 +21474,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 14:00:36 GMT"
+          "Value": "Sun, 10 Aug 2025 16:14:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21416,7 +21519,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 14:00:36 GMT"
+          "Value": "Sun, 10 Aug 2025 16:14:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21471,7 +21574,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 14:00:36 GMT"
+          "Value": "Sun, 10 Aug 2025 16:14:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21532,7 +21635,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 14:00:36 GMT"
+          "Value": "Sun, 10 Aug 2025 16:14:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21577,7 +21680,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 14:00:36 GMT"
+          "Value": "Sun, 10 Aug 2025 16:14:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21632,7 +21735,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 14:00:36 GMT"
+          "Value": "Sun, 10 Aug 2025 16:14:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21685,7 +21788,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 14:00:36 GMT"
+          "Value": "Sun, 10 Aug 2025 16:14:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21722,7 +21825,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 14:00:36 GMT"
+          "Value": "Sun, 10 Aug 2025 16:14:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21769,7 +21872,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 14:00:36 GMT"
+          "Value": "Sun, 10 Aug 2025 16:14:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21822,7 +21925,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 14:00:36 GMT"
+          "Value": "Sun, 10 Aug 2025 16:14:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21859,7 +21962,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 14:00:36 GMT"
+          "Value": "Sun, 10 Aug 2025 16:14:36 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -44,7 +44,7 @@ namespace PhoneService.Infrastructure.Migrations
 
                     b.HasIndex("ServiceId");
 
-                    b.ToTable("items");
+                    b.ToTable("Items");
                 });
 
             modelBuilder.Entity("PhoneService.Core.Entities.Phone", b =>
@@ -58,14 +58,15 @@ namespace PhoneService.Infrastructure.Migrations
                     b.Property<int>("PhoneBrandId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Title")
-                        .HasColumnType("int");
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("PhoneBrandId");
 
-                    b.ToTable("phones");
+                    b.ToTable("Phones");
                 });
 
             modelBuilder.Entity("PhoneService.Core.Entities.PhoneBrand", b =>
@@ -82,7 +83,7 @@ namespace PhoneService.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("phoneBrands");
+                    b.ToTable("PhoneBrands");
                 });
 
             modelBuilder.Entity("PhoneService.Core.Entities.Service", b =>
@@ -102,7 +103,7 @@ namespace PhoneService.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("services");
+                    b.ToTable("Services");
                 });
 
             modelBuilder.Entity("PhoneService.Core.Entities.Item", b =>

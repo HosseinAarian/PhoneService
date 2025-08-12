@@ -9,4 +9,8 @@ namespace PhoneService.Core.IRepositories;
 public interface IPhoneBrandRepositories
 {
 	Task<IEnumerable<PhoneBrand>> GetAllAsync();
+	Task<PhoneBrand> GetByIdAsync(int id);
+	Task AddAsync(PhoneBrand entity);
+	Task UpdateAsync(PhoneBrand entity);
+	Task DeleteAsync(int id);
 }

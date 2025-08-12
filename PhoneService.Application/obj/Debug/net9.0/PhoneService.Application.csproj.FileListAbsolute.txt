@@ -13,3 +13,4 @@ E:\404\PhoneService\PhoneService.Application\obj\Debug\net9.0\PhoneService.Appli
 E:\404\PhoneService\PhoneService.Application\obj\Debug\net9.0\refint\PhoneService.Application.dll
 E:\404\PhoneService\PhoneService.Application\obj\Debug\net9.0\PhoneService.Application.pdb
 E:\404\PhoneService\PhoneService.Application\obj\Debug\net9.0\ref\PhoneService.Application.dll
+E:\404\PhoneService\PhoneService.Application\obj\Debug\net9.0\PhoneService.Application.sourcelink.json
