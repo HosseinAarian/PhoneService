@@ -1,25 +1,28 @@
-﻿@model PhoneService.Core.Entities.PhoneBrand
+﻿<div dir="rtl" style="text-align: right;">
+	@model PhoneService.Core.Entities.PhoneBrand
 
-@{
-    ViewData["Title"] = "Edit Phone Brand";
-}
+	@{
+		ViewData["Title"] = "Edit Phone Brand";
+	}
 
-<h2>Edit Phone Brand</h2>
+	<h2>عنوان جدید برند</h2>
 
-<form asp-action="Edit">
-    <input type="hidden" asp-for="Id" />
-    <div class="form-group">
-        <label asp-for="Title" class="control-label"></label>
-        <input asp-for="Title" class="form-control" />
-        <span asp-validation-for="Title" class="text-danger"></span>
-    </div>
-    <br />
-    <button type="submit" class="btn btn-primary">Save</button>
-    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
-</form>
+	<form asp-action="Edit">
+		<input type="hidden" asp-for="Id" />
+		<div class="form-group">
+			<input asp-for="Title" class="form-control" />
+			<span asp-validation-for="Title" class="text-danger"></span>
+		</div>
+		<br />
+		<button type="submit" class="btn btn-primary">ویرایش</button>
+		<a asp-action="Index" class="btn btn-secondary">بیخیال</a>
+	</form>
 
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}
+	@section Scripts {
+		@{
+			await Html.RenderPartialAsync("_ValidationScriptsPartial");
+		}
+	}
+</div>
+
+

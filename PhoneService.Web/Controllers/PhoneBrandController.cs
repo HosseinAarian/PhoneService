@@ -33,8 +33,8 @@ public class PhoneBrandController : Controller
 	{
 		//if (ModelState.IsValid)
 		//{
-			await service.CreateAsync(brand);
-			return RedirectToAction(nameof(Index));
+		await service.CreateAsync(brand);
+		return RedirectToAction(nameof(Index));
 		//}
 		//return View(brand);
 	}
@@ -49,12 +49,8 @@ public class PhoneBrandController : Controller
 	[HttpPost]
 	public async Task<IActionResult> Edit(PhoneBrand brand)
 	{
-		if (ModelState.IsValid)
-		{
-			await service.UpdateAsync(brand);
-			return RedirectToAction(nameof(Index));
-		}
-		return View(brand);
+		await service.UpdateAsync(brand);
+		return RedirectToAction(nameof(Index));
 	}
 
 	public async Task<IActionResult> Delete(int id)
@@ -64,7 +60,7 @@ public class PhoneBrandController : Controller
 		return View(brand);
 	}
 
-	[HttpPost, ActionName("Delete")]
+	[HttpPost]
 	public async Task<IActionResult> DeleteConfirmed(int id)
 	{
 		await service.DeleteAsync(id);

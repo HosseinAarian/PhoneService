@@ -25,7 +25,7 @@ namespace PhoneService.Web.Controllers
 		public async Task<IActionResult> Create()
 		{
 			var brands = await phoneBrandService.GetAllAsync();
-			ViewData["PhoneBrandId"] = new SelectList(brands, "Id", "Title");
+			ViewData["PhoneBrand"] = new SelectList(brands, "Id", "Title");
 			return View();
 		}
 
@@ -33,14 +33,14 @@ namespace PhoneService.Web.Controllers
 		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Create([Bind("Title,PhoneBrandId")] Phone phone)
 		{
-			if (ModelState.IsValid)
-			{
-				await phoneService.CreatePhoneAsync(phone);
-				return RedirectToAction(nameof(Index));
-			}
-			var brands = await phoneBrandService.GetAllAsync();
-			ViewData["PhoneBrandId"] = new SelectList(brands, "Id", "Title", phone.PhoneBrandId);
-			return View(phone);
+			//if (ModelState.IsValid)
+			//{
+			await phoneService.CreatePhoneAsync(phone);
+			return RedirectToAction(nameof(Index));
+			//}
+			//var brands = await phoneBrandService.GetAllAsync();
+			//ViewData["PhoneBrandId"] = new SelectList(brands, "Id", "Title", phone.PhoneBrandId);
+			//return View(phone);
 		}
 
 		public async Task<IActionResult> Edit(int? id)

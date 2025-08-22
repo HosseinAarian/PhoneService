@@ -1,32 +1,40 @@
 ﻿@model PhoneService.Core.Entities.Phone
 
 @{
-    ViewData["Title"] = "Create Phone";
+	var phoneBrand = ViewData["PhoneBrand"] as SelectList;
+
+	ViewData["Title"] = "Create Phone";
 }
 
 <h1>Create Phone</h1>
 
 <form asp-action="Create" method="post">
-    <div class="form-group">
-        <label asp-for="Title" class="control-label"></label>
-        <input asp-for="Title" class="form-control" />
-        <span asp-validation-for="Title" class="text-danger"></span>
-    </div>
+	<div class="form-group">
+		<label asp-for="Title" class="control-label">عنوان</label>
+		<input asp-for="Title" class="form-control" />
+		<span asp-validation-for="Title" class="text-danger"></span>
+	</div>
 
-    <div class="form-group">
-        <label asp-for="PhoneBrandId" class="control-label">Brand</label>
-        <select asp-for="PhoneBrandId" asp-items="@(new SelectList(ViewData["PhoneBrandId"] as IEnumerable<SelectListItem>))" class="form-control">
-            <option value="">-- Select Brand --</option>
-        </select>
-        <span asp-validation-for="PhoneBrandId" class="text-danger"></span>
-    </div>
+	<div class="form-group col-3">
+		<label class="mb-2" asp-for="PhoneBrandId"> برند </label>
+		<select class="form-control w-100" asp-items="phoneBrand" asp-for="PhoneBrandId"> </select>
+		<span asp-validation-for="PhoneBrandId"></span>
+	</div>
 
-    <button type="submit" class="btn btn-primary">Create</button>
-    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+@* 	<div class="form-group">
+		<label asp-for="PhoneBrandId" class="control-label">Brand</label>
+		<select asp-for="PhoneBrandId" asp-items="@(new SelectList(ViewData["PhoneBrandId"] as IEnumerable<SelectListItem>))" class="form-control">
+			<option value="">-- Select Brand --</option>
+		</select>
+		<span asp-validation-for="PhoneBrandId" class="text-danger"></span>
+	</div> *@
+
+	<button type="submit" class="btn btn-primary">Create</button>
+	<a asp-action="Index" class="btn btn-secondary">Back to List</a>
 </form>
 
 @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
 }
