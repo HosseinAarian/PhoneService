@@ -23,6 +23,7 @@ public partial class PhoneServiceConfiguration
 		services.AddTransient<IPhoneBrandService, PhoneBrandService>();
 		services.AddTransient<IPhoneService, PhoneService.Application.Services.PhoneService>();
 		services.AddTransient<IServiceService, ServiceService>();
+		services.AddTransient<IItemService, ItemService>();
 	}
 
 	private static void ConfigureRepositories(IServiceCollection services)
@@ -30,6 +31,7 @@ public partial class PhoneServiceConfiguration
 		services.AddTransient<IPhoneBrandRepositories, PhonBrandRepository>();
 		services.AddTransient<IPhoneRepository, PhoneRepository>();
 		services.AddTransient<IServiceRepository, ServiceRepository>();
+		services.AddTransient<IItemRepository, ItemRepository>();
 	}
 
 	private static void ConfigureDatabase(IServiceCollection services, string connectionString)
