@@ -1,0 +1,39 @@
+﻿<div dir="rtl" style="text-align: right;">
+	@model PhoneService.Core.Entities.Item
+
+	@{
+		ViewData["Title"] = "Delete Item";
+	}
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+	<style>
+		.btn {
+			transition: all 0.3s ease;
+			background-color: darkgray;
+		}
+
+			.btn:hover {
+				transform: translateY(-2px);
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			}
+	</style>
+
+	<h4>آیا از حذف اطمینان داری ؟</h4>
+	<div>
+		<strong>@Model.Phone.Title - @Model.Service.Title</strong>
+	</div>
+
+	<form asp-action="DeleteConfirmed" method="post">
+		<input type="hidden" asp-for="Id" />
+		<br />
+
+		<button type="submit" class="btn shadow rounded-pill px-3">
+			<i class="bi bi-trash"></i> حذف
+		</button>
+
+		<a class="btn shadow rounded-pill px-3" asp-action="Index">
+			<i class="bi bi-x-circle"></i> بیخیال
+		</a>
+	</form>
+</div>

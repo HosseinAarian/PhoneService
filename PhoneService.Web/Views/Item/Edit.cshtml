@@ -1,0 +1,44 @@
+﻿<div dir="rtl" style="text-align: right;">
+	@model PhoneService.Core.Entities.Item
+
+	@{
+		var phone = ViewData["Phone"] as SelectList;
+		var service = ViewData["Service"] as SelectList;
+		ViewData["Title"] = "Edit Item";
+	}
+
+	<h1>عنوان جدید خدمت</h1>
+
+	<form asp-action="Edit" method="post">
+		<input type="hidden" asp-for="Id" />
+
+		<div class="form-group col-3">
+			<label class="mb-2" asp-for="PhoneId"> 'گوشی' </label>
+			<select class="form-control w-100" asp-items="phone" asp-for="PhoneId"> </select>
+			<span asp-validation-for="PhoneId"></span>
+		</div>
+
+		<div class="form-group col-3">
+			<label class="mb-2" asp-for="ServiceId"> خدمت </label>
+			<select class="form-control w-100" asp-items="service" asp-for="ServiceId"> </select>
+			<span asp-validation-for="ServiceId"></span>
+		</div>
+
+		<div class="form-group">
+			<label asp-for="Price" class="control-label"></label>
+			<input asp-for="Price" class="form-control" />
+			<span asp-validation-for="Price" class="text-danger"></span>
+		</div>
+
+
+
+		<button type="submit" class="btn btn-primary">ویرایش</button>
+		<a asp-action="Index" class="btn btn-secondary">بیخیال</a>
+	</form>
+
+	@section Scripts {
+		@{
+			await Html.RenderPartialAsync("_ValidationScriptsPartial");
+		}
+	}
+</div>
