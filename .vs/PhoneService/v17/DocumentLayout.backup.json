@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "E:\\404\\PhoneService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|e:\\404\\phoneservice\\phoneservice.web\\views\\phonebrand\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|solutionrelative:phoneservice.web\\views\\phonebrand\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|e:\\404\\phoneservice\\phoneservice.web\\views\\phonebrand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|solutionrelative:phoneservice.web\\views\\phonebrand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|e:\\404\\phoneservice\\phoneservice.web\\views\\phonebrand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|solutionrelative:phoneservice.web\\views\\phonebrand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4A75B092-2586-48E6-8588-F0CAA61EF09A}|PhoneService.Application\\PhoneService.Application.csproj|e:\\404\\phoneservice\\phoneservice.application\\services\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A75B092-2586-48E6-8588-F0CAA61EF09A}|PhoneService.Application\\PhoneService.Application.csproj|solutionrelative:phoneservice.application\\services\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|e:\\404\\phoneservice\\phoneservice.web\\views\\phonebrand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|solutionrelative:phoneservice.web\\views\\phonebrand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D85A45D1-12FB-4F6E-8C65-F6FC4E7D3280}|PhoneService.Infrastructure\\PhoneService.Infrastructure.csproj|e:\\404\\phoneservice\\phoneservice.infrastructure\\configuration\\phoneserviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D85A45D1-12FB-4F6E-8C65-F6FC4E7D3280}|PhoneService.Infrastructure\\PhoneService.Infrastructure.csproj|solutionrelative:phoneservice.infrastructure\\configuration\\phoneserviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|e:\\404\\phoneservice\\phoneservice.web\\controllers\\phonebrandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|solutionrelative:phoneservice.web\\controllers\\phonebrandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|e:\\404\\phoneservice\\phoneservice.web\\views\\phonebrand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|solutionrelative:phoneservice.web\\views\\phonebrand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|e:\\404\\phoneservice\\phoneservice.web\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|solutionrelative:phoneservice.web\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|e:\\404\\phoneservice\\phoneservice.web\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|solutionrelative:phoneservice.web\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|e:\\404\\phoneservice\\phoneservice.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9EAC464-1D4E-439D-91AB-28996CE0464A}|PhoneService.Web\\PhoneService.Web.csproj|solutionrelative:phoneservice.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +43,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\404\\PhoneService\\PhoneService.Web\\Views\\PhoneBrand\\Delete.cshtml",
-              "RelativeDocumentMoniker": "PhoneService.Web\\Views\\PhoneBrand\\Delete.cshtml",
-              "ToolTip": "E:\\404\\PhoneService\\PhoneService.Web\\Views\\PhoneBrand\\Delete.cshtml",
-              "RelativeToolTip": "PhoneService.Web\\Views\\PhoneBrand\\Delete.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwCUAAAAIAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\404\\PhoneService\\PhoneService.Web\\Views\\PhoneBrand\\Index.cshtml",
+              "RelativeDocumentMoniker": "PhoneService.Web\\Views\\PhoneBrand\\Index.cshtml",
+              "ToolTip": "E:\\404\\PhoneService\\PhoneService.Web\\Views\\PhoneBrand\\Index.cshtml",
+              "RelativeToolTip": "PhoneService.Web\\Views\\PhoneBrand\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-12T11:30:14.225Z",
+              "WhenOpened": "2025-08-26T08:21:58.098Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\404\\PhoneService\\PhoneService.Web\\Views\\Service\\Index.cshtml",
+              "RelativeDocumentMoniker": "PhoneService.Web\\Views\\Service\\Index.cshtml",
+              "ToolTip": "E:\\404\\PhoneService\\PhoneService.Web\\Views\\Service\\Index.cshtml",
+              "RelativeToolTip": "PhoneService.Web\\Views\\Service\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T08:22:02.459Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -56,27 +78,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\404\\PhoneService\\PhoneService.Web\\Views\\PhoneBrand\\Edit.cshtml",
-              "RelativeDocumentMoniker": "PhoneService.Web\\Views\\PhoneBrand\\Edit.cshtml",
-              "ToolTip": "E:\\404\\PhoneService\\PhoneService.Web\\Views\\PhoneBrand\\Edit.cshtml",
-              "RelativeToolTip": "PhoneService.Web\\Views\\PhoneBrand\\Edit.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswBEAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-12T12:08:55.882Z"
+              "DocumentIndex": 1,
+              "Title": "ServiceService.cs",
+              "DocumentMoniker": "E:\\404\\PhoneService\\PhoneService.Application\\Services\\ServiceService.cs",
+              "RelativeDocumentMoniker": "PhoneService.Application\\Services\\ServiceService.cs",
+              "ToolTip": "E:\\404\\PhoneService\\PhoneService.Application\\Services\\ServiceService.cs",
+              "RelativeToolTip": "PhoneService.Application\\Services\\ServiceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T08:30:05.345Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\404\\PhoneService\\PhoneService.Web\\Views\\PhoneBrand\\Create.cshtml",
-              "RelativeDocumentMoniker": "PhoneService.Web\\Views\\PhoneBrand\\Create.cshtml",
-              "ToolTip": "E:\\404\\PhoneService\\PhoneService.Web\\Views\\PhoneBrand\\Create.cshtml",
-              "RelativeToolTip": "PhoneService.Web\\Views\\PhoneBrand\\Create.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-12T12:01:03.943Z"
+              "DocumentIndex": 2,
+              "Title": "PhoneServiceConfiguration.cs",
+              "DocumentMoniker": "E:\\404\\PhoneService\\PhoneService.Infrastructure\\Configuration\\PhoneServiceConfiguration.cs",
+              "RelativeDocumentMoniker": "PhoneService.Infrastructure\\Configuration\\PhoneServiceConfiguration.cs",
+              "ToolTip": "E:\\404\\PhoneService\\PhoneService.Infrastructure\\Configuration\\PhoneServiceConfiguration.cs",
+              "RelativeToolTip": "PhoneService.Infrastructure\\Configuration\\PhoneServiceConfiguration.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwB8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T08:29:16.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -86,21 +110,36 @@
               "RelativeDocumentMoniker": "PhoneService.Web\\Controllers\\PhoneBrandController.cs",
               "ToolTip": "E:\\404\\PhoneService\\PhoneService.Web\\Controllers\\PhoneBrandController.cs",
               "RelativeToolTip": "PhoneService.Web\\Controllers\\PhoneBrandController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwD4AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T11:24:39.4Z"
+              "WhenOpened": "2025-08-26T08:28:59.362Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\404\\PhoneService\\PhoneService.Web\\Views\\PhoneBrand\\Index.cshtml",
-              "RelativeDocumentMoniker": "PhoneService.Web\\Views\\PhoneBrand\\Index.cshtml",
-              "ToolTip": "E:\\404\\PhoneService\\PhoneService.Web\\Views\\PhoneBrand\\Index.cshtml",
-              "RelativeToolTip": "PhoneService.Web\\Views\\PhoneBrand\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "E:\\404\\PhoneService\\PhoneService.Web\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "PhoneService.Web\\Controllers\\ServiceController.cs",
+              "ToolTip": "E:\\404\\PhoneService\\PhoneService.Web\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "PhoneService.Web\\Controllers\\ServiceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T08:28:02.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\404\\PhoneService\\PhoneService.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PhoneService.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\404\\PhoneService\\PhoneService.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PhoneService.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-12T11:16:15.923Z"
+              "WhenOpened": "2025-08-26T08:26:45.947Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhoneService.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e11aadb70e421c1acc6ffb0cf822152a8cf090c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3762d110a0ba0dc44582fa50967340a9fda7a4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhoneService.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhoneService.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,84 +1,69 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using PhoneService.Application.Interfaces;
 using PhoneService.Core.Entities;
 using System;
 
 public class ServiceController : Controller
 {
-	private readonly AppDbContext db = new AppDbContext();
+	private readonly IServiceService service;
 
-	// GET: Services
-	public ActionResult Index()
+	public ServiceController(IServiceService service)
 	{
-		return View(db.Services.ToList());
+		this.service = service;
 	}
 
-	// GET: Services/Details/5
-	public ActionResult Details(int id)
+	public async Task<IActionResult> Index()
 	{
-		var service = db.Services.Find(id);
-		if (service == null) return HttpNotFound();
-		return View(service);
+		var services = await service.GetAllAsync();
+		return View(services);
 	}
 
-	// GET: Services/Create
-	public ActionResult Create()
+	public async Task<IActionResult> Details(int id)
 	{
-		return View();
+		var phoneService = await service.GetByIdAsync(id);
+		if (phoneService == null) return NotFound();
+		return View(phoneService);
 	}
 
-	// POST: Services/Create
+	public IActionResult Create() => View();
+
 	[HttpPost]
-	[ValidateAntiForgeryToken]
-	public ActionResult Create(Service service)
+	public async Task<IActionResult> Create(Service phoneService)
 	{
-		if (ModelState.IsValid)
-		{
-			db.Services.Add(service);
-			db.SaveChanges();
-			return RedirectToAction("Index");
-		}
-		return View(service);
+		//if (ModelState.IsValid)
+		//{
+		await service.CreateAsync(phoneService);
+		return RedirectToAction(nameof(Index));
+		//}
+		//return View(brand);
 	}
 
-	// GET: Services/Edit/5
-	public ActionResult Edit(int id)
+	public async Task<IActionResult> Edit(int id)
 	{
-		var service = db.Services.Find(id);
-		if (service == null) return HttpNotFound();
-		return View(service);
+		var phoneService = await service.GetByIdAsync(id);
+		if (phoneService == null) return NotFound();
+		return View(phoneService);
 	}
 
-	// POST: Services/Edit/5
 	[HttpPost]
-	[ValidateAntiForgeryToken]
-	public ActionResult Edit(Service service)
+	public async Task<IActionResult> Edit(Service phoneService)
 	{
-		if (ModelState.IsValid)
-		{
-			db.Entry(service).State = EntityState.Modified;
-			db.SaveChanges();
-			return RedirectToAction("Index");
-		}
-		return View(service);
+		await service.UpdateAsync(phoneService);
+		return RedirectToAction(nameof(Index));
 	}
 
-	// GET: Services/Delete/5
-	public ActionResult Delete(int id)
+	public async Task<IActionResult> Delete(int id)
 	{
-		var service = db.Services.Find(id);
-		if (service == null) return HttpNotFound();
-		return View(service);
+		var phoneService = await service.GetByIdAsync(id);
+		if (phoneService == null) return NotFound();
+		return View(phoneService);
 	}
 
-	// POST: Services/Delete/5
-	[HttpPost, ActionName("Delete")]
-	[ValidateAntiForgeryToken]
-	public ActionResult DeleteConfirmed(int id)
+	[HttpPost]
+	public async Task<IActionResult> DeleteConfirmed(int id)
 	{
-		var service = db.Services.Find(id);
-		db.Services.Remove(service);
-		db.SaveChanges();
-		return RedirectToAction("Index");
+		await service.DeleteAsync(id);
+		return RedirectToAction(nameof(Index));
 	}
 }
