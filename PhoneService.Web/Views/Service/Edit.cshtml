@@ -1,5 +1,28 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿<div dir="rtl" style="text-align: right;">
+	@model PhoneService.Core.Entities.Service
+
+	@{
+		ViewData["Title"] = "Edit Service";
+	}
+
+	<h2>عنوان جدید خدمت</h2>
+
+	<form asp-action="Edit">
+		<input type="hidden" asp-for="Id" />
+		<div class="form-group">
+			<input asp-for="Title" class="form-control" />
+			<span asp-validation-for="Title" class="text-danger"></span>
+		</div>
+		<br />
+		<button type="submit" class="btn btn-primary">ویرایش</button>
+		<a asp-action="Index" class="btn btn-secondary">بیخیال</a>
+	</form>
+
+	@section Scripts {
+		@{
+			await Html.RenderPartialAsync("_ValidationScriptsPartial");
+		}
+	}
+</div>
+
+
