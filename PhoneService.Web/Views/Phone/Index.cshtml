@@ -1,35 +1,54 @@
-﻿@model IEnumerable<PhoneService.Core.Entities.Phone>
+﻿<div dir="rtl" style="text-align: right;">
+	@model IEnumerable<PhoneService.Core.Entities.Phone>
 
-@{
-    ViewData["Title"] = "Phones List";
-}
+	@{
+	    ViewData["Title"] = "Phones List";
+	}
 
-<h1>Phones</h1>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-<p>
-    <a asp-action="Create" class="btn btn-primary">Create New Phone</a>
-</p>
 
-<table class="table table-bordered">
-    <thead>
-        <tr>
-            <th>Title</th>
-            <th>Brand</th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var phone in Model)
-        {
-            <tr>
-                <td>@phone.Title</td>
-                <td>@phone.PhoneBrand?.Title</td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@phone.Id" class="btn btn-sm btn-warning">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@phone.Id" class="btn btn-sm btn-info">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@phone.Id" class="btn btn-sm btn-danger">Delete</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+	<style>
+		.btn {
+			transition: all 0.3s ease;
+			background-color: darkgray;
+		}
+
+			.btn:hover {
+				transform: translateY(-2px);
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			}
+	</style>
+
+	<p>
+		<a class="btn btn-primary" href="@Url.Action("Create")">ثبت گوشی جدید</a>
+	</p>
+
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>عنوان</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td>@item.Title</td>
+					<td>
+						<a class="btn btn-sm shadow rounded-pill px-3" href="@Url.Action("Edit", new { id = item.Id })">
+							<i class="bi bi-pencil-square"></i> ویرایش
+						</a>
+
+						<a class="btn  btn-sm shadow rounded-pill px-3" href="@Url.Action("Delete", new { id = item.Id })">
+							<i class="bi bi-trash"></i> حذف
+						</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>
+
+

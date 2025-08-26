@@ -1,34 +1,35 @@
-﻿@model PhoneService.Core.Entities.Phone
+﻿<div dir="rtl" style="text-align: right;">
+	@model PhoneService.Core.Entities.Phone
 
-@{
-    ViewData["Title"] = "Edit Phone";
-}
+	@{
+		var phoneBrand = ViewData["PhoneBrand"] as SelectList;
+		ViewData["Title"] = "Edit Phone";
+	}
 
-<h1>Edit Phone</h1>
+	<h1>عنوان جدید گوشی</h1>
 
-<form asp-action="Edit" method="post">
-    <input type="hidden" asp-for="Id" />
+	<form asp-action="Edit" method="post">
+		<input type="hidden" asp-for="Id" />
 
-    <div class="form-group">
-        <label asp-for="Title" class="control-label"></label>
-        <input asp-for="Title" class="form-control" />
-        <span asp-validation-for="Title" class="text-danger"></span>
-    </div>
+		<div class="form-group">
+			<label asp-for="Title" class="control-label"></label>
+			<input asp-for="Title" class="form-control" />
+			<span asp-validation-for="Title" class="text-danger"></span>
+		</div>
 
-    <div class="form-group">
-        <label asp-for="PhoneBrandId" class="control-label">Brand</label>
-        <select asp-for="PhoneBrandId" asp-items="@(new SelectList(ViewData["PhoneBrandId"] as IEnumerable<SelectListItem>))" class="form-control">
-            <option value="">-- Select Brand --</option>
-        </select>
-        <span asp-validation-for="PhoneBrandId" class="text-danger"></span>
-    </div>
+		<div class="form-group col-3">
+			<label class="mb-2" asp-for="PhoneBrandId"> برند </label>
+			<select class="form-control w-100" asp-items="phoneBrand" asp-for="PhoneBrandId"> </select>
+			<span asp-validation-for="PhoneBrandId"></span>
+		</div>
 
-    <button type="submit" class="btn btn-primary">Save</button>
-    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
-</form>
+		<button type="submit" class="btn btn-primary">ویرایش</button>
+		<a asp-action="Index" class="btn btn-secondary">بیخیال</a>
+	</form>
 
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}
+	@section Scripts {
+		@{
+			await Html.RenderPartialAsync("_ValidationScriptsPartial");
+		}
+	}
+</div>

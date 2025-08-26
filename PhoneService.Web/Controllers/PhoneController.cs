@@ -51,7 +51,7 @@ namespace PhoneService.Web.Controllers
 			if (phone == null) return NotFound();
 
 			var brands = await phoneBrandService.GetAllAsync();
-			ViewData["PhoneBrandId"] = new SelectList(brands, "Id", "Title", phone.PhoneBrandId);
+			ViewData["PhoneBrand"] = new SelectList(brands, "Id", "Title");
 
 			return View(phone);
 		}
@@ -62,22 +62,25 @@ namespace PhoneService.Web.Controllers
 		{
 			if (id != phone.Id) return NotFound();
 
-			if (ModelState.IsValid)
-			{
-				try
-				{
-					await phoneService.UpdatePhoneAsync(phone);
-				}
-				catch (Exception)
-				{
-					// Handle concurrency exceptions, etc.
-					throw;
-				}
-				return RedirectToAction(nameof(Index));
-			}
+			await phoneService.UpdatePhoneAsync(phone);
+
 			var brands = await phoneBrandService.GetAllAsync();
-			ViewData["PhoneBrandId"] = new SelectList(brands, "Id", "Title", phone.PhoneBrandId);
+			ViewData["PhoneBrand"] = new SelectList(brands, "Id", "Title");
+			return RedirectToAction(nameof(Index));
+		}
+
+		public async Task<IActionResult> Delete(int id)
+		{
+			var phone = await phoneService.GetPhoneByIdAsync(id);
+			if (phoneService == null) return NotFound();
 			return View(phone);
+		}
+
+		[HttpPost]
+		public async Task<IActionResult> DeleteConfirmed(int id)
+		{
+			await phoneService.DeletePhoneAsync(id);
+			return RedirectToAction(nameof(Index));
 		}
 	}
 }
