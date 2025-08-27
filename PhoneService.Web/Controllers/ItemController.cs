@@ -19,9 +19,9 @@ public class ItemController : Controller
 		this.serviceService = serviceService;
 	}
 
-	public async Task<IActionResult> Index()
+	public async Task<IActionResult> Index(int page = 1, int pageSize = 10)
 	{
-		var items = await itemService.GetAllAsync();
+		var items = await itemService.GetAllAsync(page, pageSize);
 		return View(items);
 	}
 

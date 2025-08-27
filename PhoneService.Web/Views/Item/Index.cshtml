@@ -1,5 +1,5 @@
 ﻿<div dir="rtl" style="text-align: right;">
-	@model IEnumerable<PhoneService.Core.Entities.Item>
+	@model PhoneService.Core.VieModels.PagedResult<PhoneService.Core.Entities.Item>
 
 	@{
 		ViewData["Title"] = "Items List";
@@ -32,7 +32,7 @@
 			</tr>
 		</thead>
 		<tbody>
-			@foreach (var item in Model)
+			@foreach (var item in Model.Items)
 			{
 				<tr>
 					<td>@item.Phone.Title - @item.Service.Title</td>
@@ -40,15 +40,25 @@
 						<a class="btn btn-sm shadow rounded-pill px-3" href="@Url.Action("Edit", new { id = item.Id })">
 							<i class="bi bi-pencil-square"></i> ویرایش
 						</a>
-
-						<a class="btn  btn-sm shadow rounded-pill px-3" href="@Url.Action("Delete", new { id = item.Id })">
+						<a class="btn btn-sm shadow rounded-pill px-3" href="@Url.Action("Delete", new { id = item.Id })">
 							<i class="bi bi-trash"></i> حذف
 						</a>
 					</td>
 				</tr>
 			}
 		</tbody>
+
 	</table>
+	<nav>
+		<ul class="pagination">
+			@for (int i = 1; i <= Model.TotalPages; i++)
+			{
+				<li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+					<a class="page-link" href="@Url.Action("Index", new { page = i, pageSize = Model.PageSize })">@i</a>
+				</li>
+			}
+		</ul>
+	</nav>
 </div>
 
 

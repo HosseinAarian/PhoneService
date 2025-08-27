@@ -1,7 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Azure;
+using Microsoft.EntityFrameworkCore;
 using PhoneService.Core.Entities;
 using PhoneService.Core.IRepositories;
+using PhoneService.Core.VieModels;
 using PhoneService.Infrastructure.Context;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace PhoneService.Infrastructure.Repositories;
 
@@ -14,12 +17,30 @@ public class ItemRepository : IItemRepository
 		this.context = context;
 	}
 
-	public async Task<IEnumerable<Item>> GetAllAsync()
+	public async Task<PagedResult<Item>> GetAllAsync(int page, int pageSize)
 	{
-		return await context.Items
+		var query =  context.Items
 			.Include(i => i.Phone).ThenInclude(p => p.PhoneBrand)
-			.Include(i => i.Service)
-			.ToListAsync();
+			.Include(i => i.Service);
+
+
+		var totalItems = query.Count();
+
+		var items = query
+		.OrderBy(i => i.Phone.Title)
+		.Skip((page - 1) * pageSize)
+		.Take(pageSize)
+		.ToList();
+
+		var model = new PagedResult<Item>
+		{
+			Items = items,
+			CurrentPage = page,
+			PageSize = pageSize,
+			TotalItems = totalItems
+		};
+
+		return model;
 	}
 
 	public async Task<Item> GetByIdAsync(int id)

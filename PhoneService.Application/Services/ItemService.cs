@@ -1,6 +1,7 @@
 ﻿using PhoneService.Application.Interfaces;
 using PhoneService.Core.Entities;
 using PhoneService.Core.IRepositories;
+using PhoneService.Core.VieModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,9 +19,9 @@ public class ItemService : IItemService
 		this.repository = repository;
 	}
 
-	public async Task<IEnumerable<Item>> GetAllAsync()
+	public async Task<PagedResult<Item>> GetAllAsync(int page, int pageSize)
 	{
-		return await repository.GetAllAsync();
+		return await repository.GetAllAsync(page, pageSize);
 	}
 
 	public async Task<Item> GetByIdAsync(int id)
