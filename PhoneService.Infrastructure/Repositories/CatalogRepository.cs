@@ -18,6 +18,8 @@ public class CatalogRepository : ICatalogRepository
 	{
 		this.context = context;
 	}
+
+	//a
 	public async Task<List<CatalogDTO>> GetCatalogs()
 	{
 		var result = await context.PhoneBrands
