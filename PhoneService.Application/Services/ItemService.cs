@@ -10,15 +10,8 @@ using System.Threading.Tasks;
 
 namespace PhoneService.Application.Services;
 
-public class ItemService : IItemService
+public class ItemService(IItemRepository repository) : IItemService
 {
-	private readonly IItemRepository repository;
-
-	public ItemService(IItemRepository repository)
-	{
-		this.repository = repository;
-	}
-
 	public async Task<PagedResult<Item>> GetAllAsync(int page, int pageSize)
 	{
 		return await repository.GetAllAsync(page, pageSize);

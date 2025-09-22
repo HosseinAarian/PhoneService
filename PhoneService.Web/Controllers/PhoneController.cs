@@ -5,17 +5,8 @@ using PhoneService.Core.Entities;
 
 namespace PhoneService.Web.Controllers
 {
-	public class PhoneController : Controller
+	public class PhoneController(IPhoneService phoneService, IPhoneBrandService phoneBrandService) : Controller
 	{
-		private readonly IPhoneService phoneService;
-		private readonly IPhoneBrandService phoneBrandService;
-
-		public PhoneController(IPhoneService phoneService, IPhoneBrandService phoneBrandService)
-		{
-			this.phoneService = phoneService;
-			this.phoneBrandService = phoneBrandService;
-		}
-
 		public async Task<IActionResult> Index()
 		{
 			var phones = await phoneService.GetAllPhonesAsync();

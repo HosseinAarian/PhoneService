@@ -9,14 +9,8 @@ using System.Threading.Tasks;
 
 namespace PhoneService.Application.Services;
 
-public class CatalogService : ICatalogService
+public class CatalogService(ICatalogRepository catalogRepository) : ICatalogService
 {
-	private readonly ICatalogRepository catalogRepository;
-
-	public CatalogService(ICatalogRepository catalogRepository)
-	{
-		this.catalogRepository = catalogRepository;
-	}
 	public async Task<List<CatalogDTO>> GetCatalogs()
 	{
 		var result = await catalogRepository.GetCatalogs();

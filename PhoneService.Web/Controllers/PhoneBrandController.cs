@@ -4,15 +4,8 @@ using PhoneService.Core.Entities;
 
 namespace PhoneService.Web.Controllers;
 
-public class PhoneBrandController : Controller
+public class PhoneBrandController(IPhoneBrandService service) : Controller
 {
-	private readonly IPhoneBrandService service;
-
-	public PhoneBrandController(IPhoneBrandService service)
-	{
-		this.service = service;
-	}
-
 	public async Task<IActionResult> Index()
 	{
 		var brands = await service.GetAllAsync();

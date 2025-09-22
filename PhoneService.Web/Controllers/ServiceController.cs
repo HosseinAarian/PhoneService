@@ -2,17 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using PhoneService.Application.Interfaces;
 using PhoneService.Core.Entities;
-using System;
 
-public class ServiceController : Controller
+public class ServiceController(IServiceService service) : Controller
 {
-	private readonly IServiceService service;
-
-	public ServiceController(IServiceService service)
-	{
-		this.service = service;
-	}
-
 	public async Task<IActionResult> Index()
 	{
 		var services = await service.GetAllAsync();

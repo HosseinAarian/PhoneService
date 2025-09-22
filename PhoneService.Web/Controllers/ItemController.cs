@@ -6,19 +6,8 @@ using PhoneService.Core.Entities;
 
 namespace PhoneService.Web.Controllers;
 
-public class ItemController : Controller
+public class ItemController(IItemService itemService, IPhoneService phoneService, IServiceService serviceService) : Controller
 {
-	private readonly IItemService itemService;
-	private readonly IPhoneService phoneService;
-	private readonly IServiceService serviceService;
-
-	public ItemController(IItemService itemService, IPhoneService phoneService, IServiceService serviceService)
-	{
-		this.itemService = itemService;
-		this.phoneService = phoneService;
-		this.serviceService = serviceService;
-	}
-
 	public async Task<IActionResult> Index(int page = 1, int pageSize = 10)
 	{
 		var items = await itemService.GetAllAsync(page, pageSize);

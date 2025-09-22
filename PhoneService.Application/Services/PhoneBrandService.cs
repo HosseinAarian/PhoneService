@@ -8,15 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace PhoneService.Application.Services;
-public class PhoneBrandService : IPhoneBrandService
+public class PhoneBrandService(IPhoneBrandRepositories repository) : IPhoneBrandService
 {
-	private readonly IPhoneBrandRepositories repository;
-
-	public PhoneBrandService(IPhoneBrandRepositories repository)
-	{
-		this.repository = repository;
-	}
-
 	public Task<IEnumerable<PhoneBrand>> GetAllAsync() => repository.GetAllAsync();
 
 	public Task<PhoneBrand> GetByIdAsync(int id) => repository.GetByIdAsync(id);

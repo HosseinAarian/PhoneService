@@ -9,15 +9,8 @@ using System.Threading.Tasks;
 
 namespace PhoneService.Application.Services;
 
-public class PhoneService : IPhoneService
+public class PhoneService(IPhoneRepository phoneRepository) : IPhoneService
 {
-	private readonly IPhoneRepository phoneRepository;
-
-	public PhoneService(IPhoneRepository phoneRepository)
-	{
-		this.phoneRepository = phoneRepository;
-	}
-
 	public async Task<IEnumerable<Phone>> GetAllPhonesAsync()
 	{
 		return await phoneRepository.GetAllAsync();
