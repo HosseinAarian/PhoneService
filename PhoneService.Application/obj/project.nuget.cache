@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nNvccIqT3Po=",
+  "dgSpecHash": "/PRr0dW8PW0=",
   "success": true,
-  "projectFilePath": "E:\\404\\PhoneService\\PhoneService.Application\\PhoneService.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Phone\\PhoneService.Application\\PhoneService.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\h.arian\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.10\\microsoft.windowsdesktop.app.ref.9.0.10.nupkg.sha512",
+    "C:\\Users\\h.arian\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.10\\microsoft.netcore.app.ref.9.0.10.nupkg.sha512",
+    "C:\\Users\\h.arian\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.10\\microsoft.aspnetcore.app.ref.9.0.10.nupkg.sha512"
+  ],
   "logs": []
 }
